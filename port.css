@@ -1,0 +1,137 @@
+/*
+Color palettes:
+   
+*/
+
+body, html {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    /*font-family: "Itim", cursive;*/
+    font-family: system-ui, -apple-system, sans-serif;
+    background-color: #001A6E;
+    min-height: 100vh;
+    line-height: 1.6;
+}
+
+aside{
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100vh;
+    width: 40%;
+    background-color: var(--bg-primary);
+    padding: 2rem;
+    border-right: 1px solid rgba(66, 153, 225, 0.2);
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.no-bullets {
+    list-style-type: none;
+    color: #009990;
+    margin-bottom: 100px;
+  }
+
+  .no-bullets li a {
+    color: #009990;
+    
+  }
+
+.icon {
+    width: 20px;
+    height: 20px;
+}
+
+
+/*
+#tab{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    padding-top: 30px;
+    padding-bottom: 30px;
+} */
+
+/*#grid-container {
+    display: flex;
+    /*grid-template-columns: 1fr 2fr;
+    height: 100vh;
+} */
+
+.title{
+    background-color: 0;
+    margin-bottom: 40px;
+    font-size: 23px;
+    color: #009990;
+    font-weight: 700;
+}
+.cardo{
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.4);
+    padding: 10px;
+    margin-bottom: 100px;
+    color: #E1FFBB;
+    background-color: #03185f;
+}
+
+.cardo-mid{
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.4);
+    padding: 10px;
+    color: #E1FFBB;
+    background-color: #03185f;
+    margin-bottom: 20px;
+}
+
+
+#right {
+    background-color: #001A6E;
+    padding-top: 250px;
+    margin-left: 40%;
+    margin-top: 100px;
+    padding: 2rem;
+}
+
+/*
+#nameTitle{
+    padding: 20px;
+}
+
+.listo{
+    margin-left: 36px;
+}
+*/
+
+.pill-container {
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: #009990;
+    border-radius: 999em;
+    font-size: 16px;
+    line-height: 1.25;
+  }
+  
+.social-links {
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+}
+
+.profile {
+    margin-bottom: 100px;
+    margin-top: 50px;
+}
+
+.right-subtitle{
+    color: #90c4c0;
+    font-weight: 700;
+}
+
+.right-subtitle2{
+    color: #90c4c0;
+    
+}
+
+.anchor-nodeco{
+    text-decoration: none;
+}
