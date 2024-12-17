@@ -1,7 +1,3 @@
-/*
-Color palettes:
-   
-*/
 
 body, html {
     margin:0;
@@ -44,22 +40,6 @@ aside{
     height: 20px;
 }
 
-
-/*
-#tab{
-    display: flex;
-    justify-content: space-around;
-    list-style: none;
-    padding-top: 30px;
-    padding-bottom: 30px;
-} */
-
-/*#grid-container {
-    display: flex;
-    /*grid-template-columns: 1fr 2fr;
-    height: 100vh;
-} */
-
 .title{
     background-color: 0;
     margin-bottom: 40px;
@@ -83,7 +63,6 @@ aside{
     margin-bottom: 20px;
 }
 
-
 #right {
     background-color: #001A6E;
     padding-top: 250px;
@@ -91,16 +70,6 @@ aside{
     margin-top: 100px;
     padding: 2rem;
 }
-
-/*
-#nameTitle{
-    padding: 20px;
-}
-
-.listo{
-    margin-left: 36px;
-}
-*/
 
 .pill-container {
     display: inline-block;
