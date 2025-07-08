@@ -12,130 +12,76 @@
 <body>
     <aside class="sidebar">
         <div class="profile">
-            <h1 style="font-weight: bold; color: #009990">Beza Mogese</h1>
-            <b><h2 style="color: #009990">Developer</h2></b>
+            <div class="profile-image">
+                <img src="img/BezaPic.JPEG" alt="Beza Mogese" class="rounded-profile">
+            </div>
+            <h2 style="font-weight: bold; color: #1e293b; margin-top: 15px; font-size: 1.2rem;">Beza Mogese</h2>
         </div>
         
         <nav>
             <ul class="no-bullets">
-                <li><a class="anchor-nodeco" href="#about">About</a></li>
-                <li><a class="anchor-nodeco" href="#projects">Projects</a></li>
-                <li><a class="anchor-nodeco" href="#experience">Experience</a></li>
-                <li><a class="anchor-nodeco" href="https://github.com/Tehlu/blog" target="_blank">Blog</a></li>
-                <li><a class="anchor-nodeco" href="https://drive.google.com/drive/u/1/folders/1iG-Nz4XWy9ZX3NSlBAlnWgqt07eLQdiv" target="_blank">Resume</a></li>
+                <li><a class="anchor-nodeco nav-item" href="index.html">
+                    <svg class="nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
+                        <polyline points="9,22 9,12 15,12 15,22"></polyline>
+                    </svg>
+                    Home
+                </a></li>
+                <li><a class="anchor-nodeco nav-item" href="about.html">
+                    <svg class="nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
+                        <circle cx="12" cy="7" r="4"></circle>
+                    </svg>
+                    About
+                </a></li>
+                <li><a class="anchor-nodeco nav-item" href="projects.html">
+                    <svg class="nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect>
+                        <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path>
+                    </svg>
+                    Projects
+                </a></li>
+                <li><a class="anchor-nodeco nav-item" href="blog.html">
+                    <svg class="nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                        <polyline points="14,2 14,8 20,8"></polyline>
+                        <line x1="16" y1="13" x2="8" y2="13"></line>
+                        <line x1="16" y1="17" x2="8" y2="17"></line>
+                        <polyline points="10,9 9,9 8,9"></polyline>
+                    </svg>
+                    Blog
+                </a></li>
+                <li><a class="anchor-nodeco nav-item" href="contact.html">
+                    <svg class="nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                        <polyline points="22,6 12,13 2,6"></polyline>
+                    </svg>
+                    Contact
+                </a></li>
             </ul>
         </nav>
         
-        <div class="social-links">
-            <a href="https://github.com/Tehlu" target="_blank" rel="noopener noreferrer">
-                <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="#E1FFBB" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
-                
-            </a>
-            <a href="https://www.linkedin.com/in/beza-mogese/" target="_blank" rel="noopener noreferrer">
-                <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="#E1FFBB" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
-                
-            </a>
-            <!-- 
-            <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
-                
-                  <svg class = "icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="256" height="256" viewBox="0 0 256 256" xml:space="preserve">
-                    <g style="stroke: none; stroke-width: 0; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill:none; fill-rule: nonzero; opacity: 1;" transform="translate(1.4065934065934016 1.4065934065934016) scale(2.81 2.81)" >
-                        <path d="M 0.219 2.882 l 34.748 46.461 L 0 87.118 h 7.87 l 30.614 -33.073 l 24.735 33.073 H 90 L 53.297 38.043 L 85.844 2.882 h -7.87 L 49.781 33.341 L 27.001 2.882 H 0.219 z M 11.793 8.679 h 12.303 L 78.425 81.32 H 66.122 L 11.793 8.679 z" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: #E1FFBB; fill-rule: nonzero; opacity: 1;" transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round" />
-                    </g>
-                    </svg>
-                
-            </a> 
-                 -->
 
-
-            <a href="mailto:beza.mogese@gmail.com">
-                <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="#E1FFBB" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
-                
-            </a>
-        </div>
     </aside>
 
-        <div id="right">
-                
-            <b><div id="about" class="title">About </div></b>
-            
-                <p class="cardo">Motivated developer with hands-on programming experience through
-                    volunteering, apprenticeship, and coursework, specializing in web development, analysis, and
-                    infrastructure management. Strong background in operations management with proven skills in
-                    leadership, client service, and payroll oversight. Eager to leverage a blend of technical and
-                    leadership expertise to deliver effective software solutions. 
-                </p>  
-            
-
-            <br>
-            <div id="projects" class="title" style="font-weight: bold;">Projects</div> 
-            <a class="anchor-nodeco" href="https://github.com/Tehlu/merge-pics" target="_blank">
-                <p class="cardo-mid ">
-                <span class="right-subtitle" >MERGED PICS </span><br>
-                A python project that merges two pictures together.<br>
-                <span class="pill-container">Python</span>
-                <span class="pill-container">CV2</span>
-                <span class="pill-container">Numpy</span>
-                </p>
-            </a>
-            <a class="anchor-nodeco" href="https://tehlu.github.io/nailSal/" target="_blank">
-                <p class="cardo-mid">
-                    <span class="right-subtitle" >WEBSITE MOCKUP FOR SMALL BUSINESS </span> <br>
-                    Built a sample website. <br>
-                    <span class="pill-container">HTML</span>
-                    <span class="pill-container">CSS</span>
-                    <span class="pill-container">Javascript</span>
-                </p>
-            </a>
-            <a class="anchor-nodeco" href="https://github.com/Tehlu/media-upload" target="_blank">
-               <p class="cardo">
-                <span class="right-subtitle" >MEDIA PORTAL </span><br>
-                             In the Works <br>
-                             <span class="pill-container">WEB</span>
-                </p>  
-            </a>  
-            <br>
-
-            <div id="experience" class="title" style="font-weight: bold;">Experience </div> 
-                <div class="cardo-mid">
-                    <p class="right-subtitle">Volunteer Developer</p>
-                    <p class="right-subtitle2">Baltimore Code & Coffee | 1/2025-Present</p>
-                    <p>
-                        Collaborate with a team to contribute to the development of the organization's official
-                        website.
-                        Create and design the "About Us" section using React.js, ensuring alignment with the
-                        organization’s mission and branding.
-                        Maintain cohesiveness across the project by coordinating with contributors and adhering to
-                        best practices for coding and design
-                    </p>
+        <div id="right" style="background-image: url('img/Home.jpg');">
+            <div class="home-center">
+                <img src="img/BezaPic.JPEG" alt="Beza Mogese" class="rounded-profile home-profile-pic">
+                <h1 class="home-name">Beza Mogese</h1>
+                <div class="home-role">Developer | Problem Solver | Tech &amp; Business Enthusiast</div>
+                <div class="home-socials">
+                    <a href="https://github.com/Tehlu" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                        <svg class="home-social-icon" viewBox="0 0 24 24" fill="none" stroke="#1e293b" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+                    </a>
+                    <a href="https://www.linkedin.com/in/beza-mogese/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                        <svg class="home-social-icon" viewBox="0 0 24 24" fill="none" stroke="#1e293b" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+                    </a>
+                    <a href="mailto:beza.mogese@gmail.com" target="_blank" rel="noopener noreferrer" aria-label="Email">
+                        <svg class="home-social-icon" viewBox="0 0 24 24" fill="none" stroke="#1e293b" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+                    </a>
                 </div>
-                
-                <div class="cardo">
-                    <p class="right-subtitle">Operations Support Manager</p>
-                    <p class="right-subtitle2 ">Atlantic Services Group | 02/2022-07/2023</p>
-                    <p>Promoted to Operations Support Manager within a year, demonstrating leadership and
-                        commitment.
-                        Managed employee schedules, client service options, billing accuracy, and supported
-                        recruitment processes from screening to onboarding.
-                        Ensured timely payroll processing, collaborated with HR on records management, and
-                        resolved client inquiries and application-related issues.</p>
-                    
-                    </div>
-            
-            <div id="projects" class="title" style="font-weight: bold;">Training</div>
-            <div class="cardo-mid">
-                <p class="right-subtitle">Linux System Admin Apprentice</p>
-                <p class="right-subtitle2">Pro-Core Plus | 10/2023-1/2024</p>
-                <p>
-                    Automated VM information retrieval and storage using Python, and deployed LAMP stack web applications.
-                    Utilized Terraform for infrastructure as code and Ansible for automating server tasks.
-                    Improved website functionality and created technical documentation for HTTP server installations.
-                </p>
-            </div> 
-
-                   
-            
-       </div>
+            </div>
+        </div>
 
        
 
