@@ -80,6 +80,7 @@ aside{
     margin-bottom: 100px;
     color: #0f172a;
     background-color: #f8fafc;
+    border-radius: 14px;
 }
 
 .cardo-mid{
@@ -88,6 +89,7 @@ aside{
     color: #0f172a;
     background-color: #f8fafc;
     margin-bottom: 20px;
+    border-radius: 14px;
 }
 
 
