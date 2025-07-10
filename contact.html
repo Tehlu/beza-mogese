@@ -64,21 +64,98 @@
     </aside>
 
     <div id="right" style="background-image: url('img/Contact.jpg');">
-        <div class="title">Contact</div>
-        <p class="cardo">
-            I'm always interested in new opportunities and collaborations. 
-            Feel free to reach out to me through any of the following channels.
-        </p>
-        <div class="cardo-mid">
-            <p class="right-subtitle">Get In Touch</p>
-            <p>Email: <a class="anchor-nodeco" href="mailto:beza.mogese@gmail.com">beza.mogese@gmail.com</a></p>
-            <p>LinkedIn: <a class="anchor-nodeco" href="https://www.linkedin.com/in/beza-mogese/" target="_blank">beza-mogese</a></p>
-            <p>GitHub: <a class="anchor-nodeco" href="https://github.com/Tehlu" target="_blank">Tehlu</a></p>
+        <div class="title">Get In Touch</div>
+        <div class="contact-cards-grid">
+            <!-- Gmail Card -->
+            <div class="contact-card gmail">
+                <div class="profile-logo-container">
+                    <img src="img/gmailBeza2.png" alt="Profile" class="profile-pic">
+                    <span class="contact-logo gmail-logo">G</span>
+                </div>
+                <span class="contact-info">beza.mogese@gmail.com</span>
+                <div class="contact-actions-vertical">
+                    <a href="mailto:beza.mogese@gmail.com" class="contact-btn icon-btn" target="_blank" title="Contact">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M15 3v6a3 3 0 0 1-3 3H3"/><path d="M16 8l5-5"/><path d="M21 3h-5v5"/></svg>
+                    </a>
+                    <button class="contact-btn icon-btn copy-btn" data-copy="beza.mogese@gmail.com" title="Copy address">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2"/><rect x="3" y="3" width="13" height="13" rx="2"/></svg>
+                    </button>
+                </div>
+            </div>
+            <!-- LinkedIn Card -->
+            <div class="contact-card linkedin">
+                <div class="profile-logo-container">
+                    <img src="img/BezaPic.JPEG" alt="Profile" class="profile-pic">
+                    <span class="contact-logo linkedin-logo">
+                        <!-- LinkedIn 'in' logo -->
+                        <svg width="22" height="22" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <rect width="32" height="32" rx="7" fill="#0A66C2"/>
+                          <text x="8" y="23" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="bold" fill="#fff">in</text>
+                        </svg>
+                    </span>
+                </div>
+                <span class="contact-info">beza-mogese</span>
+                <div class="contact-actions-vertical">
+                    <a href="https://www.linkedin.com/in/beza-mogese/" class="contact-btn icon-btn" target="_blank" title="Visit">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M15 3v6a3 3 0 0 1-3 3H3"/><path d="M16 8l5-5"/><path d="M21 3h-5v5"/></svg>
+                    </a>
+                    <button class="contact-btn icon-btn copy-btn" data-copy="https://www.linkedin.com/in/beza-mogese/" title="Copy address">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2"/><rect x="3" y="3" width="13" height="13" rx="2"/></svg>
+                    </button>
+                </div>
+            </div>
+            <!-- GitHub Card -->
+            <div class="contact-card github">
+                <div class="profile-logo-container">
+                    <img src="img/Github-Beza.png" alt="Profile" class="profile-pic">
+                    <span class="contact-logo github-logo">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2C6.48 2 2 6.48 2 12c0 4.42 2.87 8.17 6.84 9.49.5.09.66-.22.66-.48 0-.24-.01-.87-.01-1.7-2.78.6-3.37-1.34-3.37-1.34-.45-1.15-1.1-1.46-1.1-1.46-.9-.62.07-.61.07-.61 1 .07 1.53 1.03 1.53 1.03.89 1.52 2.34 1.08 2.91.83.09-.65.35-1.08.63-1.33-2.22-.25-4.56-1.11-4.56-4.95 0-1.09.39-1.98 1.03-2.68-.1-.25-.45-1.27.1-2.65 0 0 .84-.27 2.75 1.02A9.56 9.56 0 0 1 12 6.8c.85.004 1.71.115 2.51.337 1.91-1.29 2.75-1.02 2.75-1.02.55 1.38.2 2.4.1 2.65.64.7 1.03 1.59 1.03 2.68 0 3.85-2.34 4.7-4.57 4.95.36.31.68.92.68 1.85 0 1.33-.01 2.4-.01 2.73 0 .27.16.58.67.48A10.01 10.01 0 0 0 22 12c0-5.52-4.48-10-10-10z"></path></svg>
+                    </span>
+                </div>
+                <span class="contact-info">Tehlu</span>
+                <div class="contact-actions-vertical">
+                    <a href="https://github.com/Tehlu" class="contact-btn icon-btn" target="_blank" title="Visit">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M15 3v6a3 3 0 0 1-3 3H3"/><path d="M16 8l5-5"/><path d="M21 3h-5v5"/></svg>
+                    </a>
+                    <button class="contact-btn icon-btn copy-btn" data-copy="https://github.com/Tehlu" title="Copy address">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2"/><rect x="3" y="3" width="13" height="13" rx="2"/></svg>
+                    </button>
+                </div>
+            </div>
+            <!-- Slack Card -->
+            <div class="contact-card slack">
+                <div class="profile-logo-container">
+                    <img src="img/Bez-hikev2.png" alt="Profile" class="profile-pic">
+                    <span class="contact-logo slack-logo">
+                        <!-- Slack logo SVG -->
+                        <svg width="22" height="22" viewBox="0 0 122.8 122.8" xmlns="http://www.w3.org/2000/svg">
+                          <g>
+                            <rect x="51.1" y="0" width="20.6" height="82.3" rx="10.3" fill="#36C5F0"/>
+                            <rect x="0" y="51.1" width="82.3" height="20.6" rx="10.3" fill="#36C5F0"/>
+                            <rect x="71.7" y="40.6" width="20.6" height="82.3" rx="10.3" transform="rotate(-90 82 81.75)" fill="#2EB67D"/>
+                            <rect x="40.6" y="71.7" width="82.3" height="20.6" rx="10.3" transform="rotate(-90 81.75 82)" fill="#ECB22E"/>
+                            <rect x="71.7" y="0" width="20.6" height="82.3" rx="10.3" fill="#E01E5A"/>
+                            <rect x="0" y="71.7" width="82.3" height="20.6" rx="10.3" fill="#E01E5A"/>
+                          </g>
+                        </svg>
+                    </span>
+                </div>
+                <span class="contact-info">Beza</span>
+                <div class="contact-actions-vertical">
+                    <a href="https://join.slack.com/t/baltimoretech/shared_invite/zt-398pkksxt-ZUimJNReiCQLOK5x6OW8hg" class="contact-btn icon-btn" target="_blank" title="Visit">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M15 3v6a3 3 0 0 1-3 3H3"/><path d="M16 8l5-5"/><path d="M21 3h-5v5"/></svg>
+                    </a>
+                    <button class="contact-btn icon-btn copy-btn" data-copy="https://join.slack.com/t/baltimoretech/shared_invite/zt-398pkksxt-ZUimJNReiCQLOK5x6OW8hg" title="Copy address">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2"/><rect x="3" y="3" width="13" height="13" rx="2"/></svg>
+                    </button>
+                </div>
+            </div>
         </div>
         <div class="cardo">
             <p class="right-subtitle">Let's Connect</p>
-            <p>I'm open to discussing new projects, opportunities, or just having a chat about technology!</p>
+            <p>I'm open to discussing new projects, opportunities, or just having a chat!</p>
         </div>
     </div>
+    <script src="port.js"></script>
 </body>
 </html> 
