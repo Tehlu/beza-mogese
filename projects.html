@@ -9,7 +9,13 @@
 </head>
 
 <body>
-    <aside class="sidebar">
+    <button id="hamburger" aria-label="Open navigation" tabindex="0">
+        <span style="display:block;width:24px;height:3px;background:#333;margin:5px 0;"></span>
+        <span style="display:block;width:24px;height:3px;background:#333;margin:5px 0;"></span>
+        <span style="display:block;width:24px;height:3px;background:#333;margin:5px 0;"></span>
+    </button>
+    <div id="sidebar-overlay" style="display:none;"></div>
+    <aside class="sidebar sidebar-mobile-hide" id="sidebar">
         <div class="profile">
             <div class="profile-image">
                 <img src="img/BezaPic.JPEG" alt="Beza Mogese" class="rounded-profile">
@@ -65,31 +71,48 @@
 
     <div id="right" style="background-image: url('img/Projects.jpg');">
         <div class="title">Projects</div> 
-        <a class="anchor-nodeco" href="https://github.com/Tehlu/merge-pics" target="_blank">
-            <p class="cardo-mid ">
-            <span class="right-subtitle" >MERGED PICS </span><br>
-            A python project that merges two pictures together.<br>
-            <span class="pill-container">Python</span>
-            <span class="pill-container">CV2</span>
-            <span class="pill-container">Numpy</span>
-            </p>
+        <a class="anchor-nodeco" href="https://photo-merger.onrender.com" target="_blank">
+            <div class="cardo-mid">
+                <div class="project-preview" style="background-image: url('img/MergeSnippet.png');"></div>
+                <div class="project-content">
+                    <span class="right-subtitle" >MERGED PICS </span><br>
+                    A python project that merges two pictures together.<br>
+                    <span class="pill-container">Python</span>
+                    <span class="pill-container">Pillow</span>
+                    <span class="pill-container">Django</span>
+                    <span class="pill-container">SQLite</span>
+                    
+                </div>
+            </div>
         </a>
         <a class="anchor-nodeco" href="https://tehlu.github.io/nailSal/" target="_blank">
-            <p class="cardo-mid">
-                <span class="right-subtitle" >WEBSITE MOCKUP FOR SMALL BUSINESS </span> <br>
-                Built a sample website. <br>
-                <span class="pill-container">HTML</span>
-                <span class="pill-container">CSS</span>
-                <span class="pill-container">Javascript</span>
-            </p>
+            <div class="cardo-mid">
+                <div class="project-preview" style="background-image: url('img/NailSnippet.png');"></div>
+                <div class="project-content">
+                    <span class="right-subtitle" >WEBSITE MOCKUP FOR SMALL BUSINESS </span> <br>
+                    Built a sample website. <br>
+                    <span class="pill-container">HTML</span>
+                    <span class="pill-container">CSS</span>
+                    <span class="pill-container">Javascript</span>
+                </div>
+            </div>
         </a>
-        <a class="anchor-nodeco" href="https://github.com/Tehlu/baby-shower" target="_blank">
-           <p class="cardo">
-            <span class="right-subtitle" >MEDIA PORTAL </span><br>
-                         Baby Shower Picture Uploader <br>
-                         <span class="pill-container">WEB</span>
-            </p>  
+        <a class="anchor-nodeco" href="https://littlebutterfly.onrender.com/" target="_blank">
+           <div class="cardo">
+                <div class="project-preview" style="background-image: url('img/BabyShowerSnippet.png');"></div>
+                <div class="project-content">
+                    <span class="right-subtitle" >MEDIA PORTAL </span><br>
+                    Baby Shower Picture Uploader<br>
+                    <span class="pill-container">Typescript</span>
+                    <span class="pill-container">React</span>
+                    <span class="pill-container">Node.js</span>
+                    <span class="pill-container">Express</span>
+                    <span class="pill-container">Google Services</span>
+                </div>
+            </div>  
         </a>  
     </div>
+    
+    <script src="port.js"></script>
 </body>
 </html> 

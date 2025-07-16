@@ -9,7 +9,13 @@
 </head>
 
 <body>
-    <aside class="sidebar">
+    <button id="hamburger" aria-label="Open navigation" tabindex="0">
+        <span style="display:block;width:24px;height:3px;background:#333;margin:5px 0;"></span>
+        <span style="display:block;width:24px;height:3px;background:#333;margin:5px 0;"></span>
+        <span style="display:block;width:24px;height:3px;background:#333;margin:5px 0;"></span>
+    </button>
+    <div id="sidebar-overlay" style="display:none;"></div>
+    <aside class="sidebar sidebar-mobile-hide" id="sidebar">
         <div class="profile">
             <div class="profile-image">
                 <img src="img/BezaPic.JPEG" alt="Beza Mogese" class="rounded-profile">
@@ -82,5 +88,7 @@
             </a>
         </div>
     </div>
+    
+    <script src="port.js"></script>
 </body>
 </html> 

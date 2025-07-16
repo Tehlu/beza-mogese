@@ -10,7 +10,13 @@
 
 
 <body>
-    <aside class="sidebar">
+    <button id="hamburger" aria-label="Open navigation" tabindex="0">
+        <span style="display:block;width:24px;height:3px;background:#333;margin:5px 0;"></span>
+        <span style="display:block;width:24px;height:3px;background:#333;margin:5px 0;"></span>
+        <span style="display:block;width:24px;height:3px;background:#333;margin:5px 0;"></span>
+    </button>
+    <div id="sidebar-overlay" style="display:none;"></div>
+    <aside class="sidebar sidebar-mobile-hide" id="sidebar">
         <div class="profile">
             <div class="profile-image">
                 <img src="img/BezaPic.JPEG" alt="Beza Mogese" class="rounded-profile">
@@ -68,7 +74,7 @@
             <div class="home-center">
                 <img src="img/BezaPic.JPEG" alt="Beza Mogese" class="rounded-profile home-profile-pic">
                 <h1 class="home-name">Beza Mogese</h1>
-                <div class="home-role">Developer | Problem Solver | Tech &amp; Business Enthusiast</div>
+                <div class="home-role">Developer | Problem Solver | Purpose-Driven Collaborator</div>
                 <div class="home-socials">
                     <a href="https://github.com/Tehlu" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
                         <svg class="home-social-icon" viewBox="0 0 24 24" fill="none" stroke="#1e293b" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
@@ -83,9 +89,6 @@
             </div>
         </div>
 
-       
-
-       
-    
+    <script src="port.js"></script>
 </body>
 </html>

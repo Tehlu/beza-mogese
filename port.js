@@ -55,6 +55,31 @@ document.addEventListener('click', function(e) {
     }
 });
 
+// Mobile Navigation Toggle
+const hamburger = document.getElementById('hamburger');
+const sidebar = document.getElementById('sidebar');
+const overlay = document.getElementById('sidebar-overlay');
+
+function openSidebar() {
+  sidebar.classList.add('sidebar-mobile-show');
+  sidebar.classList.remove('sidebar-mobile-hide');
+  overlay.classList.add('active');
+}
+function closeSidebar() {
+  sidebar.classList.remove('sidebar-mobile-show');
+  sidebar.classList.add('sidebar-mobile-hide');
+  overlay.classList.remove('active');
+}
+
+if (hamburger && sidebar && overlay) {
+  hamburger.addEventListener('click', openSidebar);
+  overlay.addEventListener('click', closeSidebar);
+  // Hide sidebar on nav link click (mobile)
+  sidebar.querySelectorAll('a').forEach(link => {
+    link.addEventListener('click', closeSidebar);
+  });
+}
+
 // Set up navigation event listeners
 window.addEventListener('DOMContentLoaded', function() {
     document.querySelectorAll('.nav-link').forEach(link => {
